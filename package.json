@@ -1,5 +1,5 @@
 {
-  "name": "typedoc-plugin-external-module-map",
+  "name": "@alipay/typedoc-plugin-external-module-map",
   "version": "1.0.0",
   "description": "Specify the Typedoc Module of a file using a regular expression on the filename",
   "main": "index.js",
@@ -23,5 +23,8 @@
   "devDependencies": {
     "typedoc": "^0.14.2",
     "typescript": "^3.3.3"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
   }
 }
